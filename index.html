@@ -16,19 +16,35 @@
             integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
             crossorigin="anonymous"
         />
+        <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
         <header>
             <h1>Atlas</h1>
+            <div class="form-group">
+                <p>Kontinent:</p>
+                <select class="form-control" id="selContinent">
+                  <option value="europe">Evropa</option>
+                  <option value="africa">Afrika</option>
+                  <option value="asia">Asie</option>
+                  <option value="oceania">Oceanie</option>
+                  <option value="americas">Amerika</option>
+                </select>
+                <p>Řadit podle:</p>
+                <select class="form-control" id="selSort">
+                    <option value="name">Abecedně</option>
+                    <option value="population">Počet obyvatel</option>
+                    <option value="area">Rozloha</option>
+                  </select>
+              </div>
         </header>
-        <main class="container-fluid">
-            <div class="row" id="staty">
-                
-            </div>
+        <main class="container">
+            <div class="row" id="staty"></div>
         </main>
+
         <footer>
-            
+            <p>&copy; Matěj Fojtík, SŠPU Opava 2024</p>
         </footer>
         <!-- Bootstrap JavaScript Libraries -->
         <script
