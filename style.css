@@ -1,0 +1,94 @@
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 100px;
+    background-color: #000000;
+    background-image: url('img/world.jpg'); /* Zde nahraďte 'path/to/your/image.jpg' skutečnou cestou k obrázku */
+    background-size: cover; /* Pokrytí celého elementu obrázkem */
+    background-position: center; /* Centrovaní obrázku */
+    padding: 20px; /* Vnitřní odsazení pro lepší čitelnost textu */
+    margin: 0; /* Zrušení výchozího odsazení */
+}
+body{
+    background-color: #130e0e;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 50px; 
+    padding-left: 10px; 
+    padding-right: 10px; 
+    padding-top: 50px;
+}
+
+.card {
+    margin: 10px;
+    margin-bottom: 85px; 
+    border: width 2px; color: white;;
+    width: 200px; 
+    height: 280px;
+}
+
+.card img {
+    width: 100%; 
+}
+
+.card-body {
+    text-align: left; /* Zarovnání textu vlevo */
+    padding: 10px;
+    background-color: #333333; /* Tmavě šedá barva */
+}
+
+.card-title {
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: white; /* Světlejší šedá barva pro text */
+}
+
+.card-text {
+    font-size: 0.9em;
+    color: white; /* Světlejší šedá barva pro text */
+}
+
+.form-group {
+    display: flex; /* Použití flexboxu pro rozložení formuláře */
+    align-items: center; /* Vertikální zarovnání prvků */
+    gap: 15px; /* Mezera mezi prvky */
+}
+
+.form-group p {
+    margin: 0; /* Zrušení výchozího odsazení */
+    color: white;
+}
+
+#selContinent, #selSort {
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333333;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    width: 200px; /* Změněná šířka pro lepší zobrazení vedle sebe */
+}
+
+footer {
+    margin-top: 50px;
+    text-align: center;
+    padding: 5px;
+    background-color: #333333;
+    color: white;
+    font-size: 15px;
+    bottom: 0;
+    width: 100%;
+    height: 35px;
+    position: fixed;
+}
+
+p {
+    color: white;
+    opacity: 0.5;
+}
